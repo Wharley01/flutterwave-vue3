@@ -16,7 +16,7 @@ yarn add flutterwave-vue3 //or npm i flutterwave-vue3
 import the installed flutterwave-vue3 in your main.js file
 
 ```javascript
-import Flutterwave from './Flutterwave'
+import Flutterwave from 'flutterwave-vue3'
 ```
 
 then use the .use() method to add Flutterwave to plugin lists
