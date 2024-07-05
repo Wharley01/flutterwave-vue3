@@ -1,7 +1,7 @@
 import PaymentData from "./types/PaymentData";
 import ApiTracker from "./ApITracker";
 export default function (paymentData: PaymentData) {
-    console.log({paymentData})
+    
 
     if (!paymentData.public_key)
         throw new Error('Please specify your public key')
